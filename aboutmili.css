@@ -1,0 +1,238 @@
+@charset "utf-8";
+@import url("webfonts/Norican_Regular/stylesheet.css");
+@import url("webfonts/Lugrasimo_Regular/stylesheet.css");
+@import url("webfonts/AIRSTREA/stylesheet.css");
+@import url("webfonts/Ananda_Personal_Use/stylesheet.css");
+@import url("webfonts/CloisterBlack/stylesheet.css");
+@import url("webfonts/DYMAXION/stylesheet.css");
+@import url("webfonts/Deutsch/stylesheet.css");
+@import url("webfonts/OptimusPrinceps/stylesheet.css");
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+    background-color: #353535; /* Set a background color for the header */
+    padding: 20px; /* Add padding to create some space around the image */
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Style the header image */
+#header-image {
+    display: block; /* Remove any default spacing around the image */
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 0px;
+}
+
+/* Center the button container */
+.button-container {
+    text-align: center;
+}
+
+/* Sticky button section */
+.button-container {
+    position: sticky;
+    top: 0;
+    background-color: #353535; /* Set the background color for the sticky section */
+    padding: 10px 0; /* Add padding to the sticky section for spacing */
+    z-index: 10;
+}
+
+/* Style the Home button */
+.home-button {
+    padding: 10px 20px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px; /* Add some space between the two buttons */
+    background-image: -webkit-linear-gradient(270deg,rgba(208,105,75,1.00) 0%,rgba(118,61,155,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(208,105,75,1.00) 0%,rgba(118,61,155,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(208,105,75,1.00) 0%,rgba(118,61,155,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(208,105,75,1.00) 0%,rgba(118,61,155,1.00) 100%);
+    font-family: "Nueva Std";
+    font-style: italic;
+    font-weight: bolder;
+    border-top-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+
+/* Style the About button */
+.about-button {
+    padding: 10px 20px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-family: "Nueva Std";
+    font-style: italic;
+    font-weight: bolder;
+    background-image: -webkit-linear-gradient(270deg,rgba(206,104,76,1.00) 0%,rgba(121,62,151,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(206,104,76,1.00) 0%,rgba(121,62,151,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(206,104,76,1.00) 0%,rgba(121,62,151,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(206,104,76,1.00) 0%,rgba(121,62,151,1.00) 100%);
+    border-bottom-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
+
+/* Style the dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #85448B;
+}
+
+/* Show the dropdown content when the About button is hovered */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the dropdown content links */
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change the background color of dropdown content links on hover */
+.dropdown-content a:hover {
+    background-color: #C56353;
+}
+
+/* Style the Parent Section */
+.parent-section {
+    background-color: #000; /* Set a black background color */
+    padding: 20px; /* Add padding for spacing inside the parent section */
+    color: #fff; /* Set text color to white or any other color that contrasts with black */
+    max-width: 100%;
+}
+
+/* Style the topics container */
+.topics-container {
+    padding: 10px;
+}
+
+
+/* Style the topic headings */
+.topic-heading {
+    text-align: center;
+    cursor: pointer;
+    color: #000000;
+    background-color: #333; /* Background color for headings */
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    font-family: OptimusPrinceps;
+    font-size: 160%;
+    background-image: url(Images/wp4641105.jpg);
+    background-attachment: fixed;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.topic-paragraph {
+    padding: 10px;
+    color: #fff;
+    /* [disabled]border-radius: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add this property to center the text horizontally */
+    text-align: center;
+    margin-left: 9%;
+    /* [disabled]margin-top: 8%; */
+    margin-right: 9%;
+    /* [disabled]margin-bottom: 9%; */
+    background-image: url(Images/dark-blur-abstract-4k-v3.jpg);
+    background-repeat: repeat;
+}
+
+.parent-section .barbie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 9%;
+    margin-top: 6%;
+    background-attachment: fixed;
+}
+.parent-section .barbie #final {
+    max-width: 93%;
+}
+.parent-section .barbie2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 9%;
+}
+.parent-section .barbie2 #mili {
+    max-width: 100%;
+}
+.parent-section .lastimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+.parent-section .lastimg #lastgif {
+    max-width: 100%;
+}
+
+.footer h2 {
+    color: #B417D0;
+    text-align: center;
+    padding-left: 6%;
+    background-color: transparent;
+    width: 100%;
+}
+
+
+
+/* Styles for the footer */
+footer {
+    background-color: #353535;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 3%;
+}
+
+
+footer p {
+    font-size: 99%;
+    padding-left: 8%;
+}
